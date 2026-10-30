@@ -55,3 +55,5 @@ summary::before{content:"+";display:inline-block;width:24px;color:var(--red);tra
 .publine{font:600 italic 18px var(--serif);color:var(--ink)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 @media (max-width:600px){body{font-size:16px}.hero{padding-top:40px}nav{gap:12px}nav a{font-size:12px}.card{border-right:0}}
+
+.answer{background:rgba(0,0,0,.04);border-left:4px solid currentColor;padding:14px 16px;margin:0 0 20px}.hubline{margin-top:24px;font-size:.95em}.prose table{display:block;overflow-x:auto;max-width:100%;border-collapse:collapse}.prose td,.prose th{border:1px solid rgba(0,0,0,.15);padding:6px 8px;vertical-align:top}

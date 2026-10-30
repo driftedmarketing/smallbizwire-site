@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to set up a custom domain email for a small business | SmallBizWire</title>
+<meta name="description" content="Step by step with Google Workspace or Microsoft 365, from choosing a domain to the DNS records that keep you out of spam.">
+<link rel="canonical" href="https://smallbizwire.blog/how-to-set-up-custom-domain-email-for-small-business/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to set up a custom domain email for a small business | SmallBizWire">
+<meta property="og:description" content="Step by step with Google Workspace or Microsoft 365, from choosing a domain to the DNS records that keep you out of spam.">
+<meta property="og:url" content="https://smallbizwire.blog/how-to-set-up-custom-domain-email-for-small-business/">
+<meta property="og:site_name" content="SmallBizWire">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=Schibsted+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="alternate" type="application/rss+xml" title="SmallBizWire" href="/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "SmallBizWire", "url": "https://smallbizwire.blog", "description": "A small-business marketing publication.", "publisher": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}, "parentOrganization": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to set up a custom domain email for a small business", "description": "Step by step with Google Workspace or Microsoft 365, from choosing a domain to the DNS records that keep you out of spam.", "datePublished": "2026-10-30", "dateModified": "2026-10-30", "mainEntityOfPage": "https://smallbizwire.blog/how-to-set-up-custom-domain-email-for-small-business/", "author": {"@type": "Organization", "name": "SmallBizWire Editorial Team", "url": "https://smallbizwire.blog/about/"}, "publisher": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}, "articleSection": "How-to", "abstract": "Buy a domain, choose an email provider such as Google Workspace or Microsoft 365, verify you own the domain, then add the provider's MX records at your domain registrar so mail arrives. Finish by adding SPF, DKIM and DMARC records so your mail is trusted, then create mailboxes and connect your devices."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SmallBizWire", "item": "https://smallbizwire.blog/"}, {"@type": "ListItem", "position": 2, "name": "Email deliverability", "item": "https://smallbizwire.blog/topics/email-deliverability/"}, {"@type": "ListItem", "position": 3, "name": "How to set up a custom domain email for a small business", "item": "https://smallbizwire.blog/how-to-set-up-custom-domain-email-for-small-business/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use custom domain email without Google Workspace or Microsoft 365?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Many web hosts and other email providers offer it. The same steps apply: verify the domain, set MX records and add SPF, DKIM and DMARC."}}, {"@type": "Question", "name": "How long does it take for MX records to work?", "acceptedAnswer": {"@type": "Answer", "text": "Often within a few hours, though DNS changes can take up to a day or two in some cases."}}, {"@type": "Question", "name": "Do I need SPF, DKIM and DMARC for a small business?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. They help prove your mail is genuine, and Google and Yahoo require authentication from bulk senders. Without them, mail is more likely to land in spam."}}, {"@type": "Question", "name": "Do shared addresses like hello@ cost extra?", "acceptedAnswer": {"@type": "Answer", "text": "On many plans, aliases and groups are included and deliver to existing users. Check your provider's current plan details."}}, {"@type": "Question", "name": "What happens if my domain expires?", "acceptedAnswer": {"@type": "Answer", "text": "Your email and website stop working, and the domain may become available to others. Turn on auto-renew and keep payment details current."}}]}</script>
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="logo" href="/">Small<em>Biz</em>Wire</a>
+    <nav><a href="/#latest">Latest</a><a href="/topics/">Topics</a><a href="/glossary/">Glossary</a><a href="/best-ai-assistants-for-small-business/">Tools</a><a href="/best-marketing-agencies-for-small-business/">Agencies</a><a href="/about/">About</a></nav>
+  </div>
+  <div class="rule"></div>
+</header>
+<main>
+<article class="post">
+  <div class="post-head">
+    <span class="kick">How-to</span>
+    <h1>How to set up a custom domain email for a small business</h1>
+    <p class="dek">Step by step with Google Workspace or Microsoft 365, from choosing a domain to the DNS records that keep you out of spam.</p>
+    <p class="meta">SmallBizWire Editorial Team · <time datetime="2026-10-30">30 October 2026</time> · 5 min read</p>
+  </div>
+  <div class="prose">
+    <div class="answer"><strong>Short answer:</strong> Buy a domain, choose an email provider such as Google Workspace or Microsoft 365, verify you own the domain, then add the provider&#x27;s MX records at your domain registrar so mail arrives. Finish by adding SPF, DKIM and DMARC records so your mail is trusted, then create mailboxes and connect your devices.</div>
+    
+    
+<p>An address like hello@yourbusiness.com looks more credible than a free webmail address, keeps your email tied to your business rather than one person's account, and lets you set up proper authentication so your messages are trusted. Setting it up takes an afternoon. Most of that is waiting for DNS changes to take effect.</p>
+<h2>What do you need before you start?</h2>
+<ul>
+<li><strong>A domain name</strong>, bought from a domain registrar. If you already have a website, you probably already have one.</li>
+<li><strong>Access to the domain's DNS settings</strong>, usually through the registrar's dashboard or your web host.</li>
+<li><strong>An email provider.</strong> The two most common for small businesses are Google Workspace and Microsoft 365. Many hosting companies also offer email.</li>
+<li><strong>A payment card</strong> for the provider's subscription.</li>
+</ul>
+<h2>Google Workspace or Microsoft 365?</h2>
+<table>
+<thead><tr><th>Question</th><th>Google Workspace</th><th>Microsoft 365</th></tr></thead>
+<tbody>
+<tr><td>Email app</td><td>Gmail</td><td>Outlook</td></tr>
+<tr><td>Documents</td><td>Docs, Sheets, Slides</td><td>Word, Excel, PowerPoint</td></tr>
+<tr><td>Storage and files</td><td>Google Drive</td><td>OneDrive and SharePoint</td></tr>
+<tr><td>Meetings</td><td>Google Meet</td><td>Microsoft Teams</td></tr>
+<tr><td>Good fit if</td><td>Your team already uses Gmail and works in the browser</td><td>Your team relies on desktop Office files</td></tr>
+<tr><td>Price</td><td colspan="2">Both charge per user per month with several tiers. Check current pricing on each provider's site.</td></tr>
+</tbody>
+</table>
+<p>Both are reliable and both handle authentication properly. Choose the one that matches the tools your team already knows. If you plan to send cold outreach from the new domain, read the <a href="/cold-email-warm-up-guide/">cold email warm-up guide</a> first. Each also includes an AI assistant on some plans, discussed in our <a href="/chatgpt-vs-claude-vs-gemini-vs-copilot-for-small-business/">comparison of AI assistants</a>.</p>
+<h2>Step 1: How do you choose a domain?</h2>
+<p>Keep it short, easy to spell aloud, and close to your business name. A .com is widely recognised; a country domain can suit a local business. Avoid hyphens and numbers that people will mistype. Turn on auto-renew: a lapsed domain takes your email and website down with it, and expired domains can be bought by someone else.</p>
+<h2>Step 2: How do you sign up and verify the domain?</h2>
+<ol>
+<li>Sign up for your chosen provider and enter your domain when asked.</li>
+<li>The provider will ask you to prove you own the domain, usually by adding a TXT record it gives you to your DNS settings.</li>
+<li>Log in to your registrar, find the DNS settings, add the TXT record exactly as given, and save.</li>
+<li>Return to the provider and click verify. It may take minutes or, occasionally, longer for the change to be seen.</li>
+</ol>
+<p>Some registrars connect directly with Google or Microsoft and can add records automatically after you approve it.</p>
+<h2>Step 3: How do you point your mail to the new provider?</h2>
+<p>MX records tell the world which servers receive mail for your domain. Your provider will give you the exact values.</p>
+<ol>
+<li>In your DNS settings, find any existing MX records. If you are moving from another email service, plan the switch for a quiet time.</li>
+<li>Remove old MX records that point to a provider you are leaving, unless you are migrating in stages.</li>
+<li>Add the new MX records exactly as your provider lists them, including any priority values.</li>
+<li>Wait for the change to spread. Most changes appear within hours, though DNS can take up to a day or two in some cases.</li>
+<li>Send a test email from a different account to confirm it arrives.</li>
+</ol>
+<h2>Step 4: How do you set up SPF, DKIM and DMARC?</h2>
+<p>This is the step people skip, and it is why many new business addresses land in spam. Google and Yahoo now require authentication from bulk senders, and it helps every sender. Our <a href="/spf-dkim-dmarc-explained/">guide to SPF, DKIM and DMARC</a> explains each in depth.</p>
+<ul>
+<li><strong>SPF:</strong> add one TXT record listing your provider's servers, using the value from your provider's help pages. You should have only one SPF record per domain; if you add other services that send as you, include them in the same record.</li>
+<li><strong>DKIM:</strong> generate a DKIM key in your provider's admin console, add the record it gives you to DNS, then return and turn signing on.</li>
+<li><strong>DMARC:</strong> add a TXT record at _dmarc.yourdomain. Many businesses start with a monitoring policy (p=none) and a reporting address, then move to quarantine or reject once reports show all legitimate mail passes.</li>
+</ul>
+<p>Test by sending to a Gmail address and checking the original message for PASS next to all three.</p>
+<h2>Step 5: How do you create mailboxes and aliases?</h2>
+<ul>
+<li>Create a mailbox for each person who needs one. Each is usually a paid user.</li>
+<li>Use aliases or groups for shared addresses like hello@, sales@ or invoices@, which can deliver to one or more people without extra cost on many plans.</li>
+<li>Turn on two-step verification for every account, and require it for admins.</li>
+<li>Keep at least two admin accounts so you are not locked out if one person leaves.</li>
+</ul>
+<h2>Step 6: How do you move old email across?</h2>
+<p>Both Google and Microsoft provide migration tools to import mail from another provider or a free webmail account. Run the import after the new mailboxes exist. Tell regular contacts your new address and set an auto-reply or forward on the old one for a few months.</p>
+<h2>Step 7: How do you connect devices?</h2>
+<p>Sign in on phones and computers using the provider's own apps, or add the account to the mail app you prefer. Remove the account from devices when staff leave, and use the admin console to sign them out remotely.</p>
+<h2>What other services need authorising?</h2>
+<p>If your newsletter tool, online store, booking system or invoicing software sends email as your domain, each one must be added to SPF and set up for DKIM. Otherwise their mail fails authentication. If messages from one of these services start landing in spam, our guide to <a href="/why-are-my-emails-going-to-spam/">why emails go to spam</a> walks through the diagnosis.</p>
+<h2>A setup checklist</h2>
+<ol>
+<li>Domain bought, auto-renew on.</li>
+<li>Provider chosen and domain verified.</li>
+<li>MX records pointing to the new provider, test mail received.</li>
+<li>SPF, DKIM and DMARC added and passing.</li>
+<li>Mailboxes, aliases and two-step verification set up.</li>
+<li>Old mail migrated and contacts told.</li>
+<li>Other sending services authorised.</li>
+</ol>
+<h2>The bottom line</h2>
+<p>A custom domain email is cheap, quick and makes your business look established. The part that matters most for whether your mail is actually read is the authentication at the end, so do not stop once mail starts arriving.</p>
+
+    <p class="hubline">More in <a href="/topics/email-deliverability/">Email deliverability</a> · <a href="/glossary/">Glossary</a></p>
+    <section class="faq"><h2>Questions readers ask</h2><details><summary>Can I use custom domain email without Google Workspace or Microsoft 365?</summary><p>Yes. Many web hosts and other email providers offer it. The same steps apply: verify the domain, set MX records and add SPF, DKIM and DMARC.</p></details><details><summary>How long does it take for MX records to work?</summary><p>Often within a few hours, though DNS changes can take up to a day or two in some cases.</p></details><details><summary>Do I need SPF, DKIM and DMARC for a small business?</summary><p>Yes. They help prove your mail is genuine, and Google and Yahoo require authentication from bulk senders. Without them, mail is more likely to land in spam.</p></details><details><summary>Do shared addresses like hello@ cost extra?</summary><p>On many plans, aliases and groups are included and deliver to existing users. Check your provider's current plan details.</p></details><details><summary>What happens if my domain expires?</summary><p>Your email and website stop working, and the domain may become available to others. Turn on auto-renew and keep payment details current.</p></details></section>
+  </div>
+  <section class="related"><h2>Read next</h2><div class="rel-grid"><a class="card" href="/spf-dkim-dmarc-explained/"><span class="kick">Email deliverability</span><span class="ct">SPF, DKIM and DMARC, explained for people who just want their email delivered</span></a><a class="card" href="/cold-email-warm-up-guide/"><span class="kick">Email deliverability</span><span class="ct">Cold email warm-up: how to build sender reputation without burning your domain</span></a><a class="card" href="/cold-email-deliverability-checklist/"><span class="kick">Email deliverability</span><span class="ct">The cold-email deliverability checklist</span></a></div></section>
+</article>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <p class="publine">SmallBizWire is published by Drifted Marketing.</p>
+    <p>From the publisher: <a href="https://driftedmarketing.com">driftedmarketing.com</a> · <a href="https://heyhousefly.com">heyhousefly.com</a> · <a href="https://hellodrifted.com">hellodrifted.com</a></p>
+    <p><a href="/about/">About &amp; editorial policy</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/llms.txt">llms.txt</a> · <a href="/feed.xml">RSS</a> · <a href="/topics/">Topics</a> · <a href="/glossary/">Glossary</a></p>
+  </div>
+</footer>
+</body>
+</html>

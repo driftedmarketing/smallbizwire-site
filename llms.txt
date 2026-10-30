@@ -18,6 +18,39 @@
 - [Profile: Housefly, a private AI assistant you text](https://smallbizwire.blog/housefly-profile/): A memory-first assistant from Drifted Marketing, offered as ten founding seats. What it does and what it will not do.
 - [Google Business Profile: the local SEO job most small businesses leave half-done](https://smallbizwire.blog/google-business-profile-local-seo/): For anyone serving a local area, this free listing often matters more than the website.
 - [Getting your business mentioned in AI answers: a practical guide](https://smallbizwire.blog/ai-search-visibility-for-small-business/): ChatGPT, Perplexity and Google's AI Overviews now answer many questions directly. Here is how to be part of the answer.
+- [What is an AI assistant for a small business, and what can it actually do?](https://smallbizwire.blog/what-is-an-ai-assistant-for-small-business/): A plain-English explanation of what these tools are, the jobs they handle well, and the jobs you should keep for yourself.
+- [ChatGPT vs Claude vs Gemini vs Copilot: which suits a small-business owner?](https://smallbizwire.blog/chatgpt-vs-claude-vs-gemini-vs-copilot-for-small-business/): A fair comparison of the four best-known AI assistants, judged on the jobs small businesses actually give them.
+- [Is it safe to give an AI assistant access to your inbox?](https://smallbizwire.blog/is-it-safe-to-give-ai-access-to-your-inbox/): It can be, if you check the data terms, grant the narrowest permissions and make the assistant ask before anything is sent.
+- [How to write AI prompts for customer replies](https://smallbizwire.blog/how-to-write-ai-prompts-for-customer-replies/): A step-by-step method for getting drafts that sound like your business, state the right facts and need little editing.
+- [Why are my emails going to spam?](https://smallbizwire.blog/why-are-my-emails-going-to-spam/): A step-by-step diagnosis, from authentication records to list quality and content, so you can find the actual cause.
+- [What is a good email bounce rate and spam complaint rate?](https://smallbizwire.blog/what-is-a-good-email-bounce-rate-and-spam-complaint-rate/): Google's published 0.3% spam rate ceiling, commonly cited bounce benchmarks, and what to do when your numbers slip.
+- [How to set up a custom domain email for a small business](https://smallbizwire.blog/how-to-set-up-custom-domain-email-for-small-business/): Step by step with Google Workspace or Microsoft 365, from choosing a domain to the DNS records that keep you out of spam.
+- [How do I speed up a Shopify store?](https://smallbizwire.blog/how-to-speed-up-a-shopify-store/): Most slow Shopify stores are slow for the same three reasons: too many apps, oversized images and a heavy theme.
+- [Shopify vs WooCommerce vs Squarespace: which is best for a small shop?](https://smallbizwire.blog/shopify-vs-woocommerce-vs-squarespace/): A fair comparison of the three platforms small shops most often choose between, and the questions that decide it.
+- [How do I write Shopify collection pages that rank?](https://smallbizwire.blog/shopify-collection-page-seo/): Collection pages often target the search terms with the most buyers. Most stores leave them as a bare grid of products.
+- [How do I get more Google reviews without breaking the rules?](https://smallbizwire.blog/how-to-get-more-google-reviews/): Asking every customer is allowed. Paying for reviews, offering discounts for them, or only asking happy customers is not.
+- [What is NAP consistency and why does it matter for local SEO?](https://smallbizwire.blog/what-is-nap-consistency/): NAP stands for name, address and phone number. When they differ across the web, customers and search engines both get confused.
+- [How do I rank in the Google map pack?](https://smallbizwire.blog/how-to-rank-in-the-google-map-pack/): Google says local results are based mainly on relevance, distance and prominence. Here is what you can influence in each.
+- [Local SEO checklist for service-area businesses](https://smallbizwire.blog/local-seo-checklist-for-service-area-businesses/): Plumbers, cleaners, electricians and mobile services play by slightly different local SEO rules. Here is the checklist.
+- [How much does a marketing agency cost for a small business?](https://smallbizwire.blog/marketing-agency-cost-small-business/): Retainers, project fees and percent-of-spend, explained, with rough ranges and the costs that sit outside the quote.
+- [What should be in a marketing agency contract?](https://smallbizwire.blog/marketing-agency-contract-checklist/): Scope, fees, ownership, access, termination and the clauses small businesses most often forget.
+- [Freelancer vs agency vs in-house marketer: which should a small business hire?](https://smallbizwire.blog/freelancer-vs-agency-vs-in-house-marketer/): A side-by-side comparison of cost, speed, skills, control and risk, and when each one makes sense.
+- [Is it worth hiring an offshore marketing agency from Pakistan?](https://smallbizwire.blog/offshore-marketing-agency-pakistan/): Cost, time zones, payments, contracts and IP: a balanced look at hiring a Pakistani agency from the US.
+- [How do US small businesses work with agencies in another country?](https://smallbizwire.blog/how-us-businesses-work-with-overseas-agencies/): A practical setup guide: overlap hours, payments, a written scope and keeping every account in your name.
+- [How much does a Shopify store setup cost?](https://smallbizwire.blog/shopify-store-setup-cost/): Plan fees, themes, apps, design and launch work: the components of a Shopify budget, with rough ranges.
+- [What are the red flags when hiring a marketing agency?](https://smallbizwire.blog/marketing-agency-red-flags/): Guaranteed results, owning your accounts, vague scope and the other warning signs worth walking away from.
+
+## Topics
+
+- [AI assistants](https://smallbizwire.blog/topics/ai-assistants/): Choosing, using and safely limiting AI assistants in a small business.
+- [Email deliverability](https://smallbizwire.blog/topics/email-deliverability/): Authentication, warm-up and the habits that keep business email out of spam.
+- [Shopify and ecommerce](https://smallbizwire.blog/topics/shopify-ecommerce/): Store setup, speed and SEO for small online shops.
+- [Local SEO](https://smallbizwire.blog/topics/local-seo/): Google Business Profile, reviews and the map pack.
+- [Agencies and pricing](https://smallbizwire.blog/topics/agencies-and-pricing/): What marketing help costs, how to hire it and what to watch for.
+- [Cross-border agencies](https://smallbizwire.blog/topics/cross-border/): Working with marketing teams in another country, including Pakistan and the US.
+- [Glossary](https://smallbizwire.blog/glossary/)
+- [Full text](https://smallbizwire.blog/llms-full.txt)
+- [RSS](https://smallbizwire.blog/feed.xml)
 
 ## About
 

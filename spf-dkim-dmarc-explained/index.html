@@ -17,16 +17,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=Schibsted+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
+<link rel="alternate" type="application/rss+xml" title="SmallBizWire" href="/feed.xml">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "SmallBizWire", "url": "https://smallbizwire.blog", "description": "A small-business marketing publication.", "publisher": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}, "parentOrganization": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "SPF, DKIM and DMARC, explained for people who just want their email delivered", "description": "Three DNS records decide whether Gmail and Outlook trust mail from your domain. Here is what each one does and how to set them up.", "datePublished": "2026-10-30", "dateModified": "2026-10-30", "mainEntityOfPage": "https://smallbizwire.blog/spf-dkim-dmarc-explained/", "author": {"@type": "Organization", "name": "SmallBizWire Editors", "url": "https://smallbizwire.blog/about/"}, "publisher": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}, "articleSection": "Email deliverability"}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SmallBizWire", "item": "https://smallbizwire.blog/"}, {"@type": "ListItem", "position": 2, "name": "SPF, DKIM and DMARC, explained for people who just want their email delivered", "item": "https://smallbizwire.blog/spf-dkim-dmarc-explained/"}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need SPF, DKIM and DMARC for a small business?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Major mailbox providers expect all senders to authenticate, and bulk senders to Gmail and Yahoo are required to."}}, {"@type": "Question", "name": "Can I have two SPF records?", "acceptedAnswer": {"@type": "Answer", "text": "No. A domain should have exactly one SPF record. Combine all sending services into it."}}, {"@type": "Question", "name": "What DMARC policy should I start with?", "acceptedAnswer": {"@type": "Answer", "text": "Start with p=none to collect reports, then move to quarantine and reject once only legitimate senders appear."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "SPF, DKIM and DMARC, explained for people who just want their email delivered", "description": "Three DNS records decide whether Gmail and Outlook trust mail from your domain. Here is what each one does and how to set them up.", "datePublished": "2026-10-30", "dateModified": "2026-10-30", "mainEntityOfPage": "https://smallbizwire.blog/spf-dkim-dmarc-explained/", "author": {"@type": "Organization", "name": "SmallBizWire Editorial Team", "url": "https://smallbizwire.blog/about/"}, "publisher": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}, "articleSection": "Email deliverability", "abstract": "SPF lists the servers allowed to send mail for your domain, DKIM adds a cryptographic signature proving a message was not altered, and DMARC tells receiving providers what to do when those checks fail. Google and Yahoo's 2024 bulk sender requirements made all three effectively mandatory for anyone sending at volume, and they help every small business."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SmallBizWire", "item": "https://smallbizwire.blog/"}, {"@type": "ListItem", "position": 2, "name": "Email deliverability", "item": "https://smallbizwire.blog/topics/email-deliverability/"}, {"@type": "ListItem", "position": 3, "name": "SPF, DKIM and DMARC, explained for people who just want their email delivered", "item": "https://smallbizwire.blog/spf-dkim-dmarc-explained/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need SPF, DKIM and DMARC for a small business?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Major mailbox providers expect all senders to authenticate, and bulk senders to Gmail and Yahoo are required to."}}, {"@type": "Question", "name": "Can I have two SPF records?", "acceptedAnswer": {"@type": "Answer", "text": "No. A domain should have exactly one SPF record. Combine all sending services into it."}}, {"@type": "Question", "name": "What DMARC policy should I start with?", "acceptedAnswer": {"@type": "Answer", "text": "Start with p=none to collect reports, then move to quarantine and reject once only legitimate senders appear."}}, {"@type": "Question", "name": "How do I know if my DMARC record is working?", "acceptedAnswer": {"@type": "Answer", "text": "Open a message you sent in Gmail, choose Show original, and check for DMARC PASS. Your DMARC aggregate reports will also list passing and failing sources."}}, {"@type": "Question", "name": "Does SPF alone stop spoofing?", "acceptedAnswer": {"@type": "Answer", "text": "No. SPF checks the hidden envelope sender, not the From line people see. DMARC is what ties the checks to the visible From domain."}}]}</script>
 </head>
 <body>
 <header class="mast">
   <div class="mast-in">
     <a class="logo" href="/">Small<em>Biz</em>Wire</a>
-    <nav><a href="/#latest">Latest</a><a href="/best-ai-assistants-for-small-business/">Tools</a><a href="/best-marketing-agencies-for-small-business/">Agencies</a><a href="/about/">About</a></nav>
+    <nav><a href="/#latest">Latest</a><a href="/topics/">Topics</a><a href="/glossary/">Glossary</a><a href="/best-ai-assistants-for-small-business/">Tools</a><a href="/best-marketing-agencies-for-small-business/">Agencies</a><a href="/about/">About</a></nav>
   </div>
   <div class="rule"></div>
 </header>
@@ -36,9 +37,10 @@
     <span class="kick">Email deliverability</span>
     <h1>SPF, DKIM and DMARC, explained for people who just want their email delivered</h1>
     <p class="dek">Three DNS records decide whether Gmail and Outlook trust mail from your domain. Here is what each one does and how to set them up.</p>
-    <p class="meta">SmallBizWire Editors · <time datetime="2026-10-30">30 October 2026</time> · 2 min read</p>
+    <p class="meta">SmallBizWire Editorial Team · <time datetime="2026-10-30">30 October 2026</time> · 4 min read</p>
   </div>
   <div class="prose">
+    <div class="answer"><strong>Short answer:</strong> SPF lists the servers allowed to send mail for your domain, DKIM adds a cryptographic signature proving a message was not altered, and DMARC tells receiving providers what to do when those checks fail. Google and Yahoo&#x27;s 2024 bulk sender requirements made all three effectively mandatory for anyone sending at volume, and they help every small business.</div>
     
     
 <p>If your invoices land in spam or your cold emails vanish, the cause is often not your wording. It is that the receiving mail server cannot verify the message really came from you. Three records in your domain's DNS settings solve that: SPF, DKIM and DMARC.</p>
@@ -64,17 +66,47 @@
 <li>Read your first DMARC reports after a week. Unknown senders are either a tool you forgot or someone impersonating you.</li>
 </ol>
 <p>Authentication is step one. For outbound sales email, read <a href="/cold-email-warm-up-guide/">our warm-up guide</a> and the <a href="/cold-email-deliverability-checklist/">deliverability checklist</a> next.</p>
+<h2>How do SPF, DKIM and DMARC compare?</h2>
+<table>
+<thead><tr><th></th><th>SPF</th><th>DKIM</th><th>DMARC</th></tr></thead>
+<tbody>
+<tr><td>What it checks</td><td>Was this sent from an approved server?</td><td>Was this message signed by the domain and left unaltered?</td><td>Do SPF or DKIM pass and align with the visible From domain?</td></tr>
+<tr><td>Where it lives</td><td>One TXT record on your domain</td><td>A TXT record per sending service, under a selector name</td><td>One TXT record at <code>_dmarc.yourdomain.com</code></td></tr>
+<tr><td>Common mistake</td><td>Two SPF records, or too many lookups</td><td>Never switching it on in the sending tool</td><td>Jumping straight to reject before reading reports</td></tr>
+</tbody>
+</table>
+<h2>How do I set them up, step by step?</h2>
+<ol>
+<li><strong>List every service that sends as your domain.</strong> Your mailbox provider, your newsletter tool, your store platform, your invoicing app, your help desk. Missing one is the most common cause of failures later.</li>
+<li><strong>Write one SPF record.</strong> Combine each service's <code>include:</code> into a single TXT record ending in <code>~all</code> or <code>-all</code>. SPF allows a maximum of ten DNS lookups; if you exceed it, the check fails.</li>
+<li><strong>Turn on DKIM in each service.</strong> Each tool gives you a record to add to your DNS. Add it, then press the verify button in the tool.</li>
+<li><strong>Publish DMARC at monitoring level.</strong> A starting record looks like <code>v=DMARC1; p=none; rua=mailto:reports@yourdomain.com</code>.</li>
+<li><strong>Read the reports for two to four weeks.</strong> They show which sources pass and fail. Fix anything legitimate that fails.</li>
+<li><strong>Tighten the policy.</strong> Move to <code>p=quarantine</code>, then <code>p=reject</code> once legitimate mail passes consistently.</li>
+</ol>
+<h2>What does "alignment" mean in DMARC?</h2>
+<p>DMARC does not just ask whether SPF or DKIM passed. It asks whether the domain that passed matches the domain your recipient sees in the From line. A newsletter tool might pass SPF for its own domain while your From line shows yours; that pass does not count for DMARC. Setting up DKIM with your own domain in each tool is usually the simplest way to get aligned passes.</p>
+<h2>How do I check my records are working?</h2>
+<ul>
+<li>Send a message to a Gmail address, open it, choose "Show original" and look for PASS next to SPF, DKIM and DMARC.</li>
+<li>Use a free DNS lookup tool to confirm there is exactly one SPF record.</li>
+<li>Register with Google Postmaster Tools if you send meaningful volume to Gmail users, to watch spam rate and domain reputation.</li>
+</ul>
+<p>Authentication is the foundation, not the whole job. If you send outreach, read our <a href="/cold-email-warm-up-guide/">guide to warming up a new domain</a> and run through the <a href="/cold-email-deliverability-checklist/">cold-email deliverability checklist</a> before each campaign.</p>
+<h2>What happens if I get it wrong?</h2>
+<p>Usually nothing dramatic at first: some messages land in spam, invoices go unread, and nobody tells you. With a strict DMARC policy and a forgotten sending service, that service's mail can be rejected outright. That is why monitoring comes before enforcement. Make a note of every DNS change you make and the date, so that if delivery drops you can trace it back.</p>
 
-    <section class="faq"><h2>Questions readers ask</h2><details><summary>Do I need SPF, DKIM and DMARC for a small business?</summary><p>Yes. Major mailbox providers expect all senders to authenticate, and bulk senders to Gmail and Yahoo are required to.</p></details><details><summary>Can I have two SPF records?</summary><p>No. A domain should have exactly one SPF record. Combine all sending services into it.</p></details><details><summary>What DMARC policy should I start with?</summary><p>Start with p=none to collect reports, then move to quarantine and reject once only legitimate senders appear.</p></details></section>
+    <p class="hubline">More in <a href="/topics/email-deliverability/">Email deliverability</a> · <a href="/glossary/">Glossary</a></p>
+    <section class="faq"><h2>Questions readers ask</h2><details><summary>Do I need SPF, DKIM and DMARC for a small business?</summary><p>Yes. Major mailbox providers expect all senders to authenticate, and bulk senders to Gmail and Yahoo are required to.</p></details><details><summary>Can I have two SPF records?</summary><p>No. A domain should have exactly one SPF record. Combine all sending services into it.</p></details><details><summary>What DMARC policy should I start with?</summary><p>Start with p=none to collect reports, then move to quarantine and reject once only legitimate senders appear.</p></details><details><summary>How do I know if my DMARC record is working?</summary><p>Open a message you sent in Gmail, choose Show original, and check for DMARC PASS. Your DMARC aggregate reports will also list passing and failing sources.</p></details><details><summary>Does SPF alone stop spoofing?</summary><p>No. SPF checks the hidden envelope sender, not the From line people see. DMARC is what ties the checks to the visible From domain.</p></details></section>
   </div>
-  <section class="related"><h2>Read next</h2><div class="rel-grid"><a class="card" href="/cold-email-warm-up-guide/"><span class="kick">Email deliverability</span><span class="ct">Cold email warm-up: how to build sender reputation without burning your domain</span></a><a class="card" href="/cold-email-deliverability-checklist/"><span class="kick">Email deliverability</span><span class="ct">The cold-email deliverability checklist</span></a><a class="card" href="/shopify-seo-guide/"><span class="kick">Ecommerce SEO</span><span class="ct">Shopify SEO for small stores: what actually moves rankings</span></a></div></section>
+  <section class="related"><h2>Read next</h2><div class="rel-grid"><a class="card" href="/cold-email-warm-up-guide/"><span class="kick">Email deliverability</span><span class="ct">Cold email warm-up: how to build sender reputation without burning your domain</span></a><a class="card" href="/cold-email-deliverability-checklist/"><span class="kick">Email deliverability</span><span class="ct">The cold-email deliverability checklist</span></a><a class="card" href="/why-are-my-emails-going-to-spam/"><span class="kick">Email deliverability</span><span class="ct">Why are my emails going to spam?</span></a></div></section>
 </article>
 </main>
 <footer class="foot">
   <div class="foot-in">
     <p class="publine">SmallBizWire is published by Drifted Marketing.</p>
     <p>From the publisher: <a href="https://driftedmarketing.com">driftedmarketing.com</a> · <a href="https://heyhousefly.com">heyhousefly.com</a> · <a href="https://hellodrifted.com">hellodrifted.com</a></p>
-    <p><a href="/about/">About &amp; editorial policy</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/llms.txt">llms.txt</a></p>
+    <p><a href="/about/">About &amp; editorial policy</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/llms.txt">llms.txt</a> · <a href="/feed.xml">RSS</a> · <a href="/topics/">Topics</a> · <a href="/glossary/">Glossary</a></p>
   </div>
 </footer>
 </body>

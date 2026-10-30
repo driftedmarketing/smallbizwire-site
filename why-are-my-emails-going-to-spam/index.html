@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why are my emails going to spam? | SmallBizWire</title>
+<meta name="description" content="A step-by-step diagnosis, from authentication records to list quality and content, so you can find the actual cause.">
+<link rel="canonical" href="https://smallbizwire.blog/why-are-my-emails-going-to-spam/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Why are my emails going to spam? | SmallBizWire">
+<meta property="og:description" content="A step-by-step diagnosis, from authentication records to list quality and content, so you can find the actual cause.">
+<meta property="og:url" content="https://smallbizwire.blog/why-are-my-emails-going-to-spam/">
+<meta property="og:site_name" content="SmallBizWire">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=Schibsted+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="alternate" type="application/rss+xml" title="SmallBizWire" href="/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "SmallBizWire", "url": "https://smallbizwire.blog", "description": "A small-business marketing publication.", "publisher": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}, "parentOrganization": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Why are my emails going to spam?", "description": "A step-by-step diagnosis, from authentication records to list quality and content, so you can find the actual cause.", "datePublished": "2026-10-30", "dateModified": "2026-10-30", "mainEntityOfPage": "https://smallbizwire.blog/why-are-my-emails-going-to-spam/", "author": {"@type": "Organization", "name": "SmallBizWire Editorial Team", "url": "https://smallbizwire.blog/about/"}, "publisher": {"@type": "Organization", "name": "Drifted Marketing", "url": "https://driftedmarketing.com"}, "articleSection": "Email deliverability", "abstract": "Emails usually land in spam because of missing or broken authentication (SPF, DKIM, DMARC), a poor sending reputation from complaints or bounces, sending to old or purchased lists, sudden jumps in volume, or content and links that look like spam. Check authentication first, then your list and complaint rates, then your content."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SmallBizWire", "item": "https://smallbizwire.blog/"}, {"@type": "ListItem", "position": 2, "name": "Email deliverability", "item": "https://smallbizwire.blog/topics/email-deliverability/"}, {"@type": "ListItem", "position": 3, "name": "Why are my emails going to spam?", "item": "https://smallbizwire.blog/why-are-my-emails-going-to-spam/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why do my emails go to spam in Gmail but not Outlook?", "acceptedAnswer": {"@type": "Answer", "text": "Each provider tracks reputation separately. Check your authentication results in Gmail and look at Google Postmaster Tools for your domain's spam rate and reputation."}}, {"@type": "Question", "name": "Will changing my subject line fix spam problems?", "acceptedAnswer": {"@type": "Answer", "text": "Rarely on its own. Authentication and sender reputation usually matter more than wording. Fix those first."}}, {"@type": "Question", "name": "Does buying an email list cause spam problems?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Purchased lists bring complaints, bounces and spam traps, all of which damage your reputation."}}, {"@type": "Question", "name": "How do I check if my SPF, DKIM and DMARC are working?", "acceptedAnswer": {"@type": "Answer", "text": "Send a test to a Gmail address, open it, choose show original, and look for PASS next to each of the three."}}, {"@type": "Question", "name": "How long does it take to fix a bad sender reputation?", "acceptedAnswer": {"@type": "Answer", "text": "Usually weeks of steady, low-complaint sending to engaged recipients. There is no instant reset."}}]}</script>
+</head>
+<body>
+<header class="mast">
+  <div class="mast-in">
+    <a class="logo" href="/">Small<em>Biz</em>Wire</a>
+    <nav><a href="/#latest">Latest</a><a href="/topics/">Topics</a><a href="/glossary/">Glossary</a><a href="/best-ai-assistants-for-small-business/">Tools</a><a href="/best-marketing-agencies-for-small-business/">Agencies</a><a href="/about/">About</a></nav>
+  </div>
+  <div class="rule"></div>
+</header>
+<main>
+<article class="post">
+  <div class="post-head">
+    <span class="kick">Email deliverability</span>
+    <h1>Why are my emails going to spam?</h1>
+    <p class="dek">A step-by-step diagnosis, from authentication records to list quality and content, so you can find the actual cause.</p>
+    <p class="meta">SmallBizWire Editorial Team · <time datetime="2026-10-30">30 October 2026</time> · 4 min read</p>
+  </div>
+  <div class="prose">
+    <div class="answer"><strong>Short answer:</strong> Emails usually land in spam because of missing or broken authentication (SPF, DKIM, DMARC), a poor sending reputation from complaints or bounces, sending to old or purchased lists, sudden jumps in volume, or content and links that look like spam. Check authentication first, then your list and complaint rates, then your content.</div>
+    
+    
+<p>Few things are more frustrating than a customer saying "I never got your email" and then finding it in their spam folder. Mailbox providers such as Gmail, Outlook and Yahoo decide where your message goes based on many signals, and they do not publish the exact formula. But the common causes are well understood, and you can work through them in order. This guide is a diagnosis, not a list of tricks.</p>
+<h2>How do mailbox providers decide what is spam?</h2>
+<p>Providers weigh roughly four groups of signals:</p>
+<ul>
+<li><strong>Authentication.</strong> Can they confirm the email really came from your domain?</li>
+<li><strong>Reputation.</strong> How have recipients treated mail from your domain and sending servers in the past?</li>
+<li><strong>Engagement.</strong> Do people open, reply, move your mail out of spam, or delete it unread and mark it as spam?</li>
+<li><strong>Content.</strong> Do the message, links and formatting resemble known spam or phishing?</li>
+</ul>
+<p>Authentication and reputation usually matter most. Content tweaks rarely rescue a sender with a bad reputation.</p>
+<h2>Step 1: Are your SPF, DKIM and DMARC records set up?</h2>
+<p>These three DNS records prove your mail is genuine. SPF lists the servers allowed to send for your domain. DKIM adds a cryptographic signature. DMARC tells providers what to do when the first two fail and how they should align with your visible "From" address. Google and Yahoo now require authentication from bulk senders, and missing records are one of the most common reasons legitimate mail is filtered. Our explainer on <a href="/spf-dkim-dmarc-explained/">SPF, DKIM and DMARC</a> covers how each works.</p>
+<p>To check, send a message to a Gmail address you control, open it, and use the menu option to show the original message. Look for "PASS" next to SPF, DKIM and DMARC. If any says "FAIL" or is missing, fix that before anything else.</p>
+<h2>Step 2: Are you sending from a tool that is set up for your domain?</h2>
+<p>A common mistake is sending newsletters from a marketing platform without adding that platform to your SPF record or setting up its DKIM signing. The email claims to be from your domain but was sent by someone else's servers, so authentication fails. Every service that sends as your domain, including your email provider, newsletter tool, store platform and invoicing software, needs to be authorised.</p>
+<h2>Step 3: Is your list clean and permission-based?</h2>
+<ul>
+<li><strong>Purchased or scraped lists</strong> are a fast route to spam folders. Recipients never asked for your mail and complain, and such lists often contain spam traps, addresses designed to catch senders who do not have permission.</li>
+<li><strong>Old lists</strong> contain abandoned addresses that bounce, which signals poor list hygiene.</li>
+<li><strong>Unengaged subscribers</strong> who never open your mail drag down engagement signals. Consider a re-engagement message, then stop mailing those who do not respond.</li>
+</ul>
+<h2>Step 4: Are recipients complaining?</h2>
+<p>Every "Report spam" click counts against you. Google's guidance for bulk senders asks them to keep the spam rate reported in its Postmaster Tools below 0.3%, and to aim lower. Our guide to <a href="/what-is-a-good-email-bounce-rate-and-spam-complaint-rate/">good bounce and spam complaint rates</a> explains the thresholds. If complaints are high, the usual causes are unexpected mail, too-frequent mail, or an unsubscribe link that is hard to find. Bulk senders to Gmail and Yahoo are now expected to offer easy one-click unsubscribe.</p>
+<h2>Step 5: Did your volume change suddenly?</h2>
+<p>A new domain, or one that usually sends twenty emails a day and suddenly sends five thousand, looks suspicious. Providers trust consistent senders. Increase volume gradually and send your most engaged contacts first. For cold outreach specifically, see the <a href="/cold-email-warm-up-guide/">cold email warm-up guide</a>.</p>
+<h2>Step 6: Is your domain or IP on a blocklist?</h2>
+<p>Public blocklists track domains and servers associated with spam. Free lookup tools let you check your domain and sending IP against several at once. If you use a shared sending service, the IP belongs to the provider and they usually manage this, but your domain can still be listed. Fix the cause before requesting removal, or you will simply be listed again.</p>
+<h2>Step 7: Does your content look like spam?</h2>
+<p>Content is rarely the main cause, but it can tip a borderline message into spam:</p>
+<ul>
+<li>Link shorteners and links to domains with poor reputations.</li>
+<li>A single large image with little or no text.</li>
+<li>Misleading subject lines or a "Re:" on mail that is not a reply.</li>
+<li>Attachments from senders the recipient does not know.</li>
+<li>Mismatched "From" names and addresses.</li>
+<li>Broken HTML from copying content out of a word processor.</li>
+</ul>
+<h2>A diagnosis checklist</h2>
+<table>
+<thead><tr><th>Symptom</th><th>Likely cause</th><th>First fix</th></tr></thead>
+<tbody>
+<tr><td>Everything goes to spam, even one-to-one mail</td><td>Missing or failing authentication</td><td>Check SPF, DKIM and DMARC results</td></tr>
+<tr><td>Only newsletters go to spam</td><td>Newsletter tool not authenticated, or complaints</td><td>Set up the tool's DKIM; check complaint rate</td></tr>
+<tr><td>Gmail only</td><td>Reputation with Google</td><td>Check Google Postmaster Tools</td></tr>
+<tr><td>Started after a big send</td><td>Volume spike or old list</td><td>Reduce volume, clean the list</td></tr>
+<tr><td>New domain</td><td>No reputation yet</td><td>Send low volume to engaged contacts first</td></tr>
+<tr><td>Cold emails only</td><td>Unsolicited mail, low engagement</td><td>Smaller, targeted sends; see the checklist</td></tr>
+</tbody>
+</table>
+<h2>Which free tools help?</h2>
+<ul>
+<li><strong>Google Postmaster Tools</strong> shows your domain's spam rate and reputation with Gmail, once you send enough volume.</li>
+<li><strong>Microsoft's sender programs</strong> provide data for Outlook and Hotmail recipients.</li>
+<li><strong>The "show original" view</strong> in Gmail and the message headers in other clients show authentication results.</li>
+<li><strong>Blocklist lookup sites</strong> check many lists at once.</li>
+</ul>
+<h2>How long does recovery take?</h2>
+<p>Fixing authentication can help quickly once DNS changes take effect. Rebuilding a damaged reputation takes longer, often weeks of consistent, low-complaint sending to people who want your mail. There is no switch that resets it. For cold outreach, the <a href="/cold-email-deliverability-checklist/">cold email deliverability checklist</a> lists the extra precautions.</p>
+<h2>The bottom line</h2>
+<p>Work from the foundation up: authentication, then list quality and complaints, then volume, then content. Most small businesses find the cause in the first two steps.</p>
+
+    <p class="hubline">More in <a href="/topics/email-deliverability/">Email deliverability</a> · <a href="/glossary/">Glossary</a></p>
+    <section class="faq"><h2>Questions readers ask</h2><details><summary>Why do my emails go to spam in Gmail but not Outlook?</summary><p>Each provider tracks reputation separately. Check your authentication results in Gmail and look at Google Postmaster Tools for your domain's spam rate and reputation.</p></details><details><summary>Will changing my subject line fix spam problems?</summary><p>Rarely on its own. Authentication and sender reputation usually matter more than wording. Fix those first.</p></details><details><summary>Does buying an email list cause spam problems?</summary><p>Yes. Purchased lists bring complaints, bounces and spam traps, all of which damage your reputation.</p></details><details><summary>How do I check if my SPF, DKIM and DMARC are working?</summary><p>Send a test to a Gmail address, open it, choose show original, and look for PASS next to each of the three.</p></details><details><summary>How long does it take to fix a bad sender reputation?</summary><p>Usually weeks of steady, low-complaint sending to engaged recipients. There is no instant reset.</p></details></section>
+  </div>
+  <section class="related"><h2>Read next</h2><div class="rel-grid"><a class="card" href="/spf-dkim-dmarc-explained/"><span class="kick">Email deliverability</span><span class="ct">SPF, DKIM and DMARC, explained for people who just want their email delivered</span></a><a class="card" href="/cold-email-warm-up-guide/"><span class="kick">Email deliverability</span><span class="ct">Cold email warm-up: how to build sender reputation without burning your domain</span></a><a class="card" href="/cold-email-deliverability-checklist/"><span class="kick">Email deliverability</span><span class="ct">The cold-email deliverability checklist</span></a></div></section>
+</article>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <p class="publine">SmallBizWire is published by Drifted Marketing.</p>
+    <p>From the publisher: <a href="https://driftedmarketing.com">driftedmarketing.com</a> · <a href="https://heyhousefly.com">heyhousefly.com</a> · <a href="https://hellodrifted.com">hellodrifted.com</a></p>
+    <p><a href="/about/">About &amp; editorial policy</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/llms.txt">llms.txt</a> · <a href="/feed.xml">RSS</a> · <a href="/topics/">Topics</a> · <a href="/glossary/">Glossary</a></p>
+  </div>
+</footer>
+</body>
+</html>
