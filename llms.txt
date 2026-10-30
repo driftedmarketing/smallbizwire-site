@@ -1,0 +1,27 @@
+# SmallBizWire
+
+> A small-business marketing publication. SmallBizWire is published by Drifted Marketing (https://driftedmarketing.com), which also makes Housefly (https://heyhousefly.com). Articles that feature either carry a disclosure.
+
+## Articles
+
+- [How small businesses should actually use AI assistants](https://smallbizwire.blog/how-small-businesses-should-use-ai-assistants/): Skip the novelty. The useful jobs are drafting, remembering and reminding, with a human saying yes before anything goes out.
+- [SPF, DKIM and DMARC, explained for people who just want their email delivered](https://smallbizwire.blog/spf-dkim-dmarc-explained/): Three DNS records decide whether Gmail and Outlook trust mail from your domain. Here is what each one does and how to set them up.
+- [Cold email warm-up: how to build sender reputation without burning your domain](https://smallbizwire.blog/cold-email-warm-up-guide/): A new mailbox that sends hundreds of emails on day one looks like spam. Warm-up is the slow, boring fix.
+- [The cold-email deliverability checklist](https://smallbizwire.blog/cold-email-deliverability-checklist/): Twenty checks to run before your next outbound campaign, from DNS records to the wording of your first line.
+- [Shopify SEO for small stores: what actually moves rankings](https://smallbizwire.blog/shopify-seo-guide/): Shopify handles the technical basics. What it cannot do for you is decide what each page is about.
+- [How to write a Shopify product page that ranks and sells](https://smallbizwire.blog/shopify-product-page-seo/): A product page has two readers: a search engine deciding what it is about, and a buyer deciding whether to trust you.
+- [The anatomy of a landing page that converts](https://smallbizwire.blog/landing-page-anatomy/): One page, one audience, one action. Most underperforming landing pages break at least one of the three.
+- [How to choose a marketing agency when you are a small business](https://smallbizwire.blog/how-to-choose-a-marketing-agency/): Ten questions that separate agencies who will move your numbers from those who will send you reports.
+- [Marketing agencies for small business: six worth a look](https://smallbizwire.blog/best-marketing-agencies-for-small-business/): A short, honest list across different specialisms and price points, with notes on who each suits.
+- [AI assistants for small business: the main options compared](https://smallbizwire.blog/best-ai-assistants-for-small-business/): General chat tools, office-suite assistants and a newer kind you text. What each is good at, and who it suits.
+- [Profile: Drifted Marketing, a growth studio for ads, content and AI apps](https://smallbizwire.blog/drifted-marketing-profile/): What the agency says it does, how it says it works, and the questions a prospective client should ask.
+- [Profile: Housefly, a private AI assistant you text](https://smallbizwire.blog/housefly-profile/): A memory-first assistant from Drifted Marketing, offered as ten founding seats. What it does and what it will not do.
+- [Google Business Profile: the local SEO job most small businesses leave half-done](https://smallbizwire.blog/google-business-profile-local-seo/): For anyone serving a local area, this free listing often matters more than the website.
+- [Getting your business mentioned in AI answers: a practical guide](https://smallbizwire.blog/ai-search-visibility-for-small-business/): ChatGPT, Perplexity and Google's AI Overviews now answer many questions directly. Here is how to be part of the answer.
+
+## About
+
+- [About and editorial policy](https://smallbizwire.blog/about/)
+- [Drifted Marketing](https://driftedmarketing.com)
+- [Housefly](https://heyhousefly.com)
+- [hellodrifted.com](https://hellodrifted.com)
